@@ -23,7 +23,7 @@ printf("%dnegative\n", n);
 }
 else
 {
-printf("%d0 is zero\n", xcn);
+printf("%d0 is zero\n", n);
 }
 return (0);
 }
