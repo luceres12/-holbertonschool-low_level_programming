@@ -1,8 +1,6 @@
-#include <stdlib.h>
-#include <time.h>
-#include <stdio.h>
-/* more headers goes there */
-
+#include<stdlib.h>
+#include<time.h>
+#include<stdio.h>
 /**
  * main - Entry point
  *
@@ -12,21 +10,20 @@
 int main(void)
 {
 int n;
-
 srand(time(0));
 n = rand() - RAND_MAX / 2;
 /* your code goes there */
 if (n > 1)
 {
-printf("%dpositive\n");
+printf("%dpositive\n", n);
 }
 else if (n < 1)
 {
-printf("%dnegative\n");
+printf("%dnegative\n", n);
 }
 else
 {
-printf("%d0 is zero\n");
+printf("%d0 is zero\n", xcn);
 }
 return (0);
 }
